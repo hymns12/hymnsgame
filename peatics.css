@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: black;color: white;
+}
+.display_f{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.agin{
+    margin-top: 1rem;
+    padding: 8px 20px;
+    font-weight: 800;
+}
+.agin:hover{
+    background-color: black;color: white;
+    border: 1px solid white;
+}
+h6{
+    font-size: 16px;
+}
+h1{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    font-family: monospace;
+    text-transform: capitalize;
+}
+.gueesdiv{
+  text-align: center;
+  margin-top: 3rem;
+}
+.guees{
+   margin: 0 auto;
+   border: 1px solid white; 
+   width: 20%;
+   padding: 10px 2px;
+   font-size: 3rem;
+   font-weight: 900;
+}
+.fitem1{
+    padding-top: 3rem;
+}
+.fitem1 input{
+    width: 30%;
+    padding: 8px 2px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+.fitem1 button{
+    width: 30%;
+    padding: 5px 2px;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 600;
+}
+.fitem2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+.sidediv{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 17px;
+    font-family: monospace;
+}
+.className{
+    font-size: 20px;
+    padding: 5px 1px;
+}
